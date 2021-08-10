@@ -12,6 +12,8 @@
 		E26C509426C2DC5800900CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26C509326C2DC5800900CDE /* Assets.xcassets */; };
 		E26C509726C2DC5800900CDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26C509626C2DC5800900CDE /* Preview Assets.xcassets */; };
 		E26C509F26C2DD5500900CDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C509E26C2DD5500900CDE /* User.swift */; };
+		E298EE1A26C301FD0075B183 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298EE1926C301FD0075B183 /* LoadingState.swift */; };
+		E298EE1C26C304870075B183 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298EE1B26C304870075B183 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E26C509626C2DC5800900CDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E26C509826C2DC5800900CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26C509E26C2DD5500900CDE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E298EE1926C301FD0075B183 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		E298EE1B26C304870075B183 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				E26C508F26C2DC5600900CDE /* BucketListApp.swift */,
 				E26C509126C2DC5600900CDE /* ContentView.swift */,
+				E298EE1B26C304870075B183 /* MapView.swift */,
+				E298EE1926C301FD0075B183 /* LoadingState.swift */,
 				E26C509E26C2DD5500900CDE /* User.swift */,
 				E26C509326C2DC5800900CDE /* Assets.xcassets */,
 				E26C509826C2DC5800900CDE /* Info.plist */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E298EE1A26C301FD0075B183 /* LoadingState.swift in Sources */,
 				E26C509226C2DC5600900CDE /* ContentView.swift in Sources */,
+				E298EE1C26C304870075B183 /* MapView.swift in Sources */,
 				E26C509026C2DC5600900CDE /* BucketListApp.swift in Sources */,
 				E26C509F26C2DD5500900CDE /* User.swift in Sources */,
 			);
