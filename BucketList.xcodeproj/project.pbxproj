@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20307E726C4556D000084FC /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20307E626C4556D000084FC /* Places.swift */; };
 		E26C509026C2DC5600900CDE /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C508F26C2DC5600900CDE /* BucketListApp.swift */; };
 		E26C509226C2DC5600900CDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C509126C2DC5600900CDE /* ContentView.swift */; };
 		E26C509426C2DC5800900CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26C509326C2DC5800900CDE /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E20307E626C4556D000084FC /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		E26C508C26C2DC5600900CDE /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26C508F26C2DC5600900CDE /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		E26C509126C2DC5600900CDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				E26C508F26C2DC5600900CDE /* BucketListApp.swift */,
 				E26C509126C2DC5600900CDE /* ContentView.swift */,
+				E20307E626C4556D000084FC /* Places.swift */,
 				E298EE2326C3AF200075B183 /* Result.swift */,
 				E298EE1D26C35EFB0075B183 /* MapView.swift */,
 				E298EE1F26C3AB780075B183 /* MKPointAnnotation.swift */,
@@ -160,6 +163,7 @@
 				E298EE1E26C35EFB0075B183 /* MapView.swift in Sources */,
 				E26C509026C2DC5600900CDE /* BucketListApp.swift in Sources */,
 				E298EE2026C3AB780075B183 /* MKPointAnnotation.swift in Sources */,
+				E20307E726C4556D000084FC /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

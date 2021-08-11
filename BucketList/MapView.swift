@@ -73,6 +73,7 @@ struct MapView: UIViewRepresentable {
             
             parent.selectedPlace = placemark
             parent.showingPlaceDetails = true
+            print("Pressed i")
         }
     }
 }
