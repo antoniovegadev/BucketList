@@ -36,6 +36,7 @@ struct ContentView: View {
                             let newLocation = CodableMKPointAnnotation()
                             newLocation.coordinate = centerCoordinate
                             newLocation.title = "Example Location"
+                            newLocation.subtitle = "Example description"
                             locations.append(newLocation)
                             selectedPlace = newLocation
                             showingEditScreen = true
