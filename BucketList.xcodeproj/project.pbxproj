@@ -15,6 +15,7 @@
 		E298EE2026C3AB780075B183 /* MKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298EE1F26C3AB780075B183 /* MKPointAnnotation.swift */; };
 		E298EE2226C3AC060075B183 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298EE2126C3AC060075B183 /* EditView.swift */; };
 		E298EE2426C3AF200075B183 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298EE2326C3AF200075B183 /* Result.swift */; };
+		E298EE2626C438D90075B183 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298EE2526C438D90075B183 /* MKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E298EE1F26C3AB780075B183 /* MKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKPointAnnotation.swift; sourceTree = "<group>"; };
 		E298EE2126C3AC060075B183 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		E298EE2326C3AF200075B183 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E298EE2526C438D90075B183 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E298EE1D26C35EFB0075B183 /* MapView.swift */,
 				E298EE1F26C3AB780075B183 /* MKPointAnnotation.swift */,
 				E298EE2126C3AC060075B183 /* EditView.swift */,
+				E298EE2526C438D90075B183 /* MKPointAnnotation-Codable.swift */,
 				E26C509326C2DC5800900CDE /* Assets.xcassets */,
 				E26C509826C2DC5800900CDE /* Info.plist */,
 				E26C509526C2DC5800900CDE /* Preview Content */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E298EE2626C438D90075B183 /* MKPointAnnotation-Codable.swift in Sources */,
 				E298EE2426C3AF200075B183 /* Result.swift in Sources */,
 				E26C509226C2DC5600900CDE /* ContentView.swift in Sources */,
 				E298EE2226C3AC060075B183 /* EditView.swift in Sources */,
